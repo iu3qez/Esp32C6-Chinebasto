@@ -1,0 +1,9 @@
+# VS Code Local History
+.history/
+
+# KiCad backup/autosave
+*-backups/
+*.kicad_prl
+_autosave-*
+fp-info-cache
+*.bak
