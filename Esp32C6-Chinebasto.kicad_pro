@@ -629,7 +629,7 @@
         "uuid": "75db8882-5d53-4ed0-a3d0-0bb6372cd542"
       }
     ],
-    "used_designators": "#PWR1-12,C1-2,U1-6,USBC1",
+    "used_designators": "D1-3,USBC2,#PWR13-21,X1",
     "variants": []
   },
   "sheets": [
