@@ -498,7 +498,14 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/D+": [
+        "USB"
+      ],
+      "/D-": [
+        "USB"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -629,7 +636,7 @@
         "uuid": "75db8882-5d53-4ed0-a3d0-0bb6372cd542"
       }
     ],
-    "used_designators": "D1-3,USBC2,#PWR13-21,X1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
