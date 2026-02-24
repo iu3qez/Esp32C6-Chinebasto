@@ -1346,6 +1346,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-Clock:Crystal_12MHz_2.5x2.0mm"
 			(pin_numbers
 				(hide yes)
@@ -1564,142 +1687,6 @@
 						(effects
 							(font
 								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SparkFun-PowerSymbol:3.3V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "3.3V"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"3.3V\""
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4550,12 +4537,6 @@
 		(uuid "5190e9eb-9a89-4459-a321-bb8eabc5e7d1")
 	)
 	(junction
-		(at 209.55 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57d0e531-a237-4874-b9d4-bb441dc835a7")
-	)
-	(junction
 		(at 40.64 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4586,10 +4567,28 @@
 		(uuid "a6a933d7-6f43-4475-928f-51e86215f090")
 	)
 	(junction
+		(at 119.38 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac4b603-e671-46ea-bc16-367fc06510c6")
+	)
+	(junction
 		(at 44.45 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af2ad01f-6768-4a05-ae04-fd7c843d6d5a")
+	)
+	(junction
+		(at 209.55 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa2f326-1eb4-4123-847f-4e64532264f4")
+	)
+	(junction
+		(at 114.3 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb2f3a36-0675-4ec5-bcfd-de261804524a")
 	)
 	(junction
 		(at 274.32 91.44)
@@ -4602,6 +4601,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed74c649-d23c-49d3-a830-d2b089b4dd5a")
+	)
+	(junction
+		(at 109.22 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe4a04cb-2ed9-4d6e-84c2-1374be7c0396")
 	)
 	(no_connect
 		(at 46.99 118.11)
@@ -4931,16 +4936,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 62.23) (xy 209.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a1eca9f-2dc2-4bbb-a837-9c820f1aa789")
-	)
-	(wire
-		(pts
 			(xy 247.65 76.2) (xy 247.65 81.28)
 		)
 		(stroke
@@ -5071,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 62.23) (xy 210.82 62.23)
+			(xy 208.28 62.23) (xy 209.55 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5098,6 +5093,16 @@
 			(type default)
 		)
 		(uuid "59b34e89-8c6d-4692-bf79-23de36129f23")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce35a8b-1c07-47fa-87a7-e6de482fece2")
 	)
 	(wire
 		(pts
@@ -5168,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "6ae975ea-935e-4391-b788-386bf2628d97")
+	)
+	(wire
+		(pts
+			(xy 114.3 175.26) (xy 119.38 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9eeef4-6f30-4002-9e6f-0d47e03cf61e")
 	)
 	(wire
 		(pts
@@ -5598,6 +5613,16 @@
 			(type default)
 		)
 		(uuid "e65648ec-20f1-4f14-bbaa-1258cf4d3441")
+	)
+	(wire
+		(pts
+			(xy 209.55 62.23) (xy 210.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec022bd0-55e7-4b0c-b520-afd2c6fd23c8")
 	)
 	(wire
 		(pts
@@ -6234,6 +6259,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 142.24 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0937433b-06ea-45f0-ac04-7db3a33b2f5f")
+		(property "Reference" "#PWR040"
+			(at 142.24 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 142.24 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 142.24 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f89d89c-379f-4a5c-9508-8e5ddeb1433b")
+		)
+		(instances
+			(project "Esp32C6-Chinebasto"
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 209.55 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09bac073-fe8c-49c4-bcfe-e76f9425751f")
+		(property "Reference" "#PWR07"
+			(at 209.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 209.55 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 209.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31457e1c-124a-48e2-8542-ea9380b907b0")
+		)
+		(instances
+			(project ""
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Clock:Crystal_12MHz_2.5x2.0mm")
 		(at 229.87 87.63 90)
 		(unit 1)
@@ -6517,94 +6698,6 @@
 				)
 				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542/4147dafb-9b61-4f51-a89a-f79ddbdedce4"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
-		(at 209.55 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19823ddd-d75e-468b-8440-84e5ead034d3")
-		(property "Reference" "#PWR016"
-			(at 209.55 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 209.55 58.42 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 209.55 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09a2e179-cfdc-4067-9947-95c6ae9522a6")
-		)
-		(instances
-			(project ""
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
-					(reference "#PWR016")
-					(unit 1)
-				)
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542/f8192719-baf8-48a4-99d2-67449211a60b"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-			(project "cwqrs"
-				(path "/b55a3a0f-8ecb-4028-970d-37df73178392"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7207,6 +7300,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fde5087-11b5-4da6-9fc9-a52d38368007")
+		(property "Reference" "H3"
+			(at 111.76 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 172.7199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90df94ad-9007-4478-be7a-12b66fe17073")
+		)
+		(instances
+			(project "Esp32C6-Chinebasto"
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 20.32 107.95 0)
 		(unit 1)
@@ -7793,6 +7966,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59206364-7dc1-4766-8aca-5acf8a47a33a")
+		(property "Reference" "H2"
+			(at 121.92 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 121.92 180.3399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 119.38 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02ed5cfc-318b-4827-8698-fa2b5a16acd6")
+		)
+		(instances
+			(project "Esp32C6-Chinebasto"
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 153.67 0)
 		(unit 1)
@@ -7865,94 +8118,6 @@
 			(project "Esp32C6-Chinebasto"
 				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
-		(at 142.24 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cc35d6a-bfef-4491-b27c-61deec65588b")
-		(property "Reference" "#PWR02"
-			(at 142.24 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 142.24 55.88 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 142.24 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7ccdc59-347a-479f-82be-ae979e796f90")
-		)
-		(instances
-			(project "power supply"
-				(path "/6754e039-ae0c-4794-a41a-ff2e76bc830e"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
-					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542/4147dafb-9b61-4f51-a89a-f79ddbdedce4"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9020,8 +9185,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
-		(at 220.98 60.96 0)
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 114.3 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9030,9 +9195,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e89726b-0274-4d91-ab49-f22e51005fed")
-		(property "Reference" "#PWR017"
-			(at 220.98 64.77 0)
+		(uuid "7e81499e-f594-475a-bf15-97dfeec9c8df")
+		(property "Reference" "#PWR016"
+			(at 114.3 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9042,8 +9207,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 220.98 57.15 0)
+		(property "Value" "GND"
+			(at 114.3 179.07 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9053,7 +9218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 60.96 0)
+			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9064,7 +9229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 60.96 0)
+			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9074,8 +9239,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 220.98 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,22 +9251,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd34223e-7fb1-4902-8b60-3dcf38c46df1")
+			(uuid "6cb57ce2-7595-4358-a2a6-94d7b6c2e520")
 		)
 		(instances
-			(project ""
+			(project "Esp32C6-Chinebasto"
 				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
-					(reference "#PWR017")
-					(unit 1)
-				)
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542/f8192719-baf8-48a4-99d2-67449211a60b"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-			(project "cwqrs"
-				(path "/b55a3a0f-8ecb-4028-970d-37df73178392"
-					(reference "#PWR075")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9284,6 +9439,84 @@
 			(project "Esp32C6-Chinebasto"
 				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 176.53 52.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fb43e8-fca3-41a8-a2b7-25b0e27fd1d3")
+		(property "Reference" "#PWR039"
+			(at 176.53 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 176.53 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34956494-de95-46dd-8b98-ce73d472a892")
+		)
+		(instances
+			(project "Esp32C6-Chinebasto"
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11114,94 +11347,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
-		(at 176.53 52.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d9efc6-3d32-43c0-bace-65a3599ba4f0")
-		(property "Reference" "#PWR07"
-			(at 176.53 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 176.53 55.88 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 176.53 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94a34c26-5b6f-4e5d-856c-e35394e1245e")
-		)
-		(instances
-			(project "power supply"
-				(path "/6754e039-ae0c-4794-a41a-ff2e76bc830e"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542/4147dafb-9b61-4f51-a89a-f79ddbdedce4"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 208.28 95.25 0)
 		(unit 1)
@@ -11378,6 +11523,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 119.38 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e71b2f2d-5491-45d7-99ef-3450763d6778")
+		(property "Reference" "H1"
+			(at 121.92 171.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 121.92 172.7199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 119.38 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 119.38 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7001f896-4953-418e-8df8-c52a35b6491a")
+		)
+		(instances
+			(project ""
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 170.18 139.7 270)
 		(unit 1)
@@ -11460,7 +11685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-PowerSymbol:3.3V")
+		(lib_id "power:+3.3V")
 		(at 203.2 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -11470,8 +11695,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee2de12a-f982-40e7-9578-b7f8c3abf7a4")
-		(property "Reference" "#PWR010"
+		(uuid "ecb0c0cf-0d12-48d5-a1db-c83db24bb510")
+		(property "Reference" "#PWR02"
 			(at 203.2 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -11482,10 +11707,10 @@
 				)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 203.2 39.37 0)
+		(property "Value" "+3.3V"
+			(at 203.2 38.1 0)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,8 +11739,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 203.2 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11526,22 +11751,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3974fec0-137c-4c57-b04f-1c56f08ceb02")
+			(uuid "ca8ec539-96a7-4e40-9689-e295b714267e")
 		)
 		(instances
-			(project "power supply"
-				(path "/6754e039-ae0c-4794-a41a-ff2e76bc830e"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
 			(project ""
 				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542/4147dafb-9b61-4f51-a89a-f79ddbdedce4"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11702,6 +11917,164 @@
 			(project "Esp32C6-Chinebasto"
 				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 220.98 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f67f51-830f-46c2-9c66-69f76b7e49c9")
+		(property "Reference" "#PWR010"
+			(at 220.98 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 220.98 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 220.98 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "059f3c7a-8858-43f2-b807-8b2cdb1a8946")
+		)
+		(instances
+			(project "Esp32C6-Chinebasto"
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f727c309-7590-47c6-90d4-a51fa27fdf21")
+		(property "Reference" "H4"
+			(at 111.76 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 111.76 180.3399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 109.22 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 109.22 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4323684-246a-4ab4-9cbd-75d5c39d2142")
+		)
+		(instances
+			(project "Esp32C6-Chinebasto"
+				(path "/75db8882-5d53-4ed0-a3d0-0bb6372cd542"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -11981,13 +12354,18 @@
 		(members "12538563-cd9b-4025-af27-d0ceae207563" "16093469-db31-4b0f-a2b9-ad9bdcd3de97"
 			"26687675-db99-4fba-aea5-f5597359491f" "4cd9392d-77a6-4674-b0d8-c654e75a989f"
 			"5256bb06-acd3-475e-90bd-318d2fb2774c" "56de326e-3937-45cd-adaa-efa83b31ef12"
-			"5cc35d6a-bfef-4491-b27c-61deec65588b" "6839d0b5-ef64-4bf7-8bec-5fda614e4430"
-			"72acfe43-a544-461b-81dc-2e112d230598" "7b3a02d2-09ae-418f-aa85-4c6dd0cf56fa"
-			"907a2cc8-6b35-4a1b-8dad-e636b20b7983" "9360a4ed-56d1-40e7-9795-6fa6e5d2681f"
-			"bcd77900-ea7d-4aea-bb93-3b12f00836bd" "d1def6c1-8637-4235-843b-45d97b2d4cf6"
-			"d4d9efc6-3d32-43c0-bace-65a3599ba4f0" "dfa77cde-3231-4219-8dc8-03a1dbb779da"
-			"ee2de12a-f982-40e7-9578-b7f8c3abf7a4" "fa5fda73-113d-4fee-a399-d5eb8e67cb59"
-			"fcca4194-6866-49b7-a084-8ea5c46b6d11"
+			"6839d0b5-ef64-4bf7-8bec-5fda614e4430" "72acfe43-a544-461b-81dc-2e112d230598"
+			"7b3a02d2-09ae-418f-aa85-4c6dd0cf56fa" "907a2cc8-6b35-4a1b-8dad-e636b20b7983"
+			"9360a4ed-56d1-40e7-9795-6fa6e5d2681f" "bcd77900-ea7d-4aea-bb93-3b12f00836bd"
+			"d1def6c1-8637-4235-843b-45d97b2d4cf6" "dfa77cde-3231-4219-8dc8-03a1dbb779da"
+			"fa5fda73-113d-4fee-a399-d5eb8e67cb59" "fcca4194-6866-49b7-a084-8ea5c46b6d11"
+		)
+	)
+	(group "ldo 3.3v"
+		(uuid "5f1496b2-126a-48dd-bba9-de9631dbb5e2")
+		(lib_id "Library:ldo 3.3v")
+		(members "0937433b-06ea-45f0-ac04-7db3a33b2f5f" "34afa43d-970a-4e15-97fd-232925373eb3"
+			"84fb43e8-fca3-41a8-a2b7-25b0e27fd1d3" "ecb0c0cf-0d12-48d5-a1db-c83db24bb510"
 		)
 	)
 	(sheet_instances
